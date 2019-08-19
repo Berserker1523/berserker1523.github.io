@@ -1,0 +1,14 @@
+{
+  "name": "berserker1523_page",
+  "version": "1.0.0",
+  "description": "My home page to show the world who am I!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Berserker1523",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.2.0"
+  }
+}
