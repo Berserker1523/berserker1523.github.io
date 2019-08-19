@@ -6,7 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Berserker1523's Page</title>
+  <title>Berserker1523's Life Path</title>
+  <meta name="description" content="My personal web page for show the world who am I.">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Jesús Orlando Cárcamo Posada">
+  <link rel="icon" href="https://img.icons8.com/dusk/64/000000/html-5.png">
 
   <!-- Bootstrap CSS CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -30,10 +34,9 @@
       <div class="sidebar-header">
         <h3>Berserker1523's Page</h3>
       </div>
-
-      <ul class="list-unstyled components">
-        <img src="../img/portada.jpg" class="img-fluid" alt="Jesús Orlando Cárcamo Posada">
-        <p>My paths</p>
+      <img src="../img/portada.jpg" class="img-fluid" alt="Jesús Orlando Cárcamo Posada">
+      <ul class="list-unstyled components" style="margin-left:10px;">
+        My paths
         <li>
           <a href="#videogamesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
           onclick="document.getElementById('button-videogames').click()">
@@ -71,18 +74,18 @@
     <li>
       <a href="#animeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
       onclick="document.getElementById('anime').click()">
-        Anime
-      </a>
-      <ul class="collapse list-unstyled" id="animeSubmenu">
-        <li>
-          <a href="#karate" onclick="document.getElementById('karate').click()">Karate</a>
-        </li>
-        <li>
-          <a href="#japanese" onclick="document.getElementById('japanese').click()">Japanese</a>
-        </li>
-      </ul>
-    </li>
-  </ul>
+      Anime
+    </a>
+    <ul class="collapse list-unstyled" id="animeSubmenu">
+      <li>
+        <a href="#karate" onclick="document.getElementById('karate').click()">Karate</a>
+      </li>
+      <li>
+        <a href="#japanese" onclick="document.getElementById('japanese').click()">Japanese</a>
+      </li>
+    </ul>
+  </li>
+</ul>
 </nav>
 
 <!-- Page Content  -->
@@ -103,10 +106,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="../index.html">Home</a>
           </li>
           <li class="nav-item  active">
-            <a class="nav-link" href="#">My Path</a>
+            <a class="nav-link" href="./paths.html">My Path</a>
           </li>
         </ul>
       </div>
@@ -209,7 +212,7 @@
   </div><!--end  paths content -->
 </div><!-- end content -->
 
-
+</div>
 
 <!-- jQuery CDN - Slim version (=without AJAX) -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
