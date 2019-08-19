@@ -12,6 +12,9 @@ The objectives of this project was learn to make an static webpage with knowledg
     Bootstrap
     JavaScript
     jQuery
+    
+## Author
+![Jesús Orlando Cárcamo Posada](https://www.facebook.com/berserker1523)
 
 ## Visit the web page
 
