@@ -3,7 +3,7 @@
 This is my personal web page for show the world who am I. It is the first project of the Web Development course in Universidad de los Andes, Colombia.
 
 ## Objectives
-The objectives of this project was learn to make an static webpage with knowledge of basics html, css and js.
+The objectives of this project was learn to make an static webpage with knowledge of basics html, css and js, according with the web development course of Los Andes University: http://johnguerra.co/classes/webDevelopment_fall_2019/
 
 
 ## Built with
