@@ -9,6 +9,6 @@
   "author": "Berserker1523",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.2.0"
+    "eslint": "^9.39.1"
   }
 }
